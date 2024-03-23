@@ -2,13 +2,13 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer, useRoute } from '@react-navigation/native';
-import HomeScreen from './screen/home'
-import Favorite from './screen/favorite';
-import Setting from './screen/setting';
-import Cart from './screen/cart';
+import HomeScreen from '../screen/home'
+import Favorite from '../screen/favorite';
+import Setting from '../screen/setting';
+import Cart from '../screen/cart';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import ProductDetails from './screen/productDetails';
-import { MyTheme } from './Themes/MyTheme';
+import ProductDetails from '../screen/productDetails';
+import { MyTheme } from '../Themes/MyTheme';
 
 
 

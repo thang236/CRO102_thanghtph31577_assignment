@@ -2,10 +2,10 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import Login from './component/screen/login';
+import Login from './screen/login';
 import Welcome from './component/welcome';
 import MainContainer from './component/mainContainer';
-import SettingsScreen from './component/screen/setting';
+import SettingsScreen from './screen/setting';
 
 const Stack = createNativeStackNavigator();
 const App = () => {

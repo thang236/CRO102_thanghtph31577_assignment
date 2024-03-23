@@ -3,12 +3,13 @@ import { StyleSheet, View, Image, Text, TouchableOpacity, ScrollView } from 'rea
 
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-import NewProducts from '../newProduct';
-import HotProducts from '../hotProducts';
-import AdBanner from '../adBanner';
-import RecentlyViewed from '../recentlyViewed';
-import avatar1 from '../../image/avt.jpeg';
+
+import HotProducts from '../component/hotProducts';
+import AdBanner from '../component/adBanner';
+import RecentlyViewed from '../component/recentlyViewed';
+import avatar1 from '../image/avt.jpeg';
 import { MyTheme, useTheme } from '../Themes/MyTheme'
+import NewProducts from '../component/newProduct';
 
 
 const Home = ({ navigation }) => {

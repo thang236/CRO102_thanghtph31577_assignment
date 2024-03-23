@@ -1,7 +1,7 @@
 import { KeyboardAvoidingView, StyleSheet, Text, TextInput, TouchableOpacity, TouchableWithoutFeedback, View, Keyboard, Image } from 'react-native'
 import React, { useState } from 'react'
 
-import logo from '../../image/logo.png';
+import logo from '../image/logo.png';
 
 const Login = ({ navigation }) => {
     const [username, setUsername] = useState('');

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, Image, StyleSheet, FlatList, RefreshControl, Modal } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import QuantitySelector from '../quantitySelector';
+import QuantitySelector from '../component/quantitySelector';
 import { MyTheme, useTheme } from '../Themes/MyTheme'
 
 
